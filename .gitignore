@@ -1,0 +1,7 @@
+.idea/
+out/
+gen
+*.iml
+
+local.properties
+
