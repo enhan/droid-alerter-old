@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_red_glob_title">
+        <CheckBoxPreference android:title="@string/pref_vibration_title" android:key="pref_red_vibration" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pref_speak_title" android:key="pref_red_speak" android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_yellow_glob_title">
+        <CheckBoxPreference android:title="@string/pref_vibration_title" android:key="pref_yellow_vibration" android:defaultValue="true"/>
+        <CheckBoxPreference android:title="@string/pref_speak_title" android:key="pref_yellow_speak" android:defaultValue="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_blue_glob_title" >
+        <CheckBoxPreference android:title="@string/pref_vibration_title" android:key="pref_blue_vibration" android:defaultValue="true"/>
+        <CheckBoxPreference android:title="@string/pref_speak_title" android:key="pref_blue_speak" android:defaultValue="false"/>
+    </PreferenceCategory>
+</PreferenceScreen>
